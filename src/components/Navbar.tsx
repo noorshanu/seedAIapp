@@ -47,20 +47,20 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 items-center">
-          <a href="/ecosystem" className="hover:text-gray-300 text-xl font-eculid">
-            ECOSYSTEM
+          <a href="/ecosystem" className="hover:text-gray-300 text-xl font-eculid uppercase ">
+         Dashboard
           </a>
-          <a href="/how-it-works" className="hover:text-gray-300 text-xl font-eculid" >
-            HOW IT WORKS
+          <a href="/how-it-works" className="hover:text-gray-300 text-xl font-eculid uppercase">
+          Goveernance 
           </a>
-          <a href="/community" className="hover:text-gray-300 text-xl font-eculid">
-            COMMUNITY
+          <a href="/community" className="hover:text-gray-300 text-xl font-eculid uppercase">
+        AI
           </a>
-          <a href="#" className="hover:text-gray-300 text-xl font-eculid">
-            WHITEPAPER
+          <a href="#" className="hover:text-gray-300 text-xl font-eculid uppercase">
+            About
           </a>
-          <a href="#" className="hover:text-gray-300 text-xl font-eculid">
-            EXPLORE
+          <a href="#" className="hover:text-gray-300 text-xl font-eculid uppercase">
+           BRIDGE
           </a>
           <div>
             <a
@@ -79,19 +79,19 @@ const Navbar: React.FC = () => {
           } absolute top-[80px] left-0 right-0 flex-col bg-black bg-opacity-90 py-4 md:hidden z-50`}
         >
           <a href="/ecosystem" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
-            ECOSYSTEM
+            Dashboard
           </a>
           <a href="/how-it-works" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
-            HOW IT WORKS
+            Goveernance
           </a>
           <a href="/community" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
-            COMMUNITY
+            AI
           </a>
           <a href="#" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
-            WHITEPAPER
+            About
           </a>
           <a href="#" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
-            EXPLORE
+            BRIDGE
           </a>
           <div className="px-4 py-2">
             <a
