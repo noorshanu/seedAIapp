@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
+
 function Hero() {
   return (
     <div className="h-auto py-10 sm:py-0   flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 relative">
@@ -30,22 +31,7 @@ function Hero() {
         </div>
 
         {/* CTA Button */}
-     <div className=" ">
-     <button className="group font-eculid border bg-gray-800/60 hover:bg-gray-800/80 text-white px-8 py-3 rounded-full text-lg transition-all duration-300 flex items-center gap-2 mx-auto">
-          EXPLORE MARKETPLACE
-
-        </button>
-     </div>
-
-        <h1 className="text-3xl sm:text-5xl font-bold text-white mt-10">
-          AI Agents on Mode
-        </h1>
-
-        <div>
-          <div className="box2 rounded-lg border border-purple-600 p-6 shadow-lg hover:scale-105 transform transition duration-300">
-
-          </div>
-        </div>
+       
       </div>
     </div>
   );

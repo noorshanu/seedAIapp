@@ -63,7 +63,7 @@ const FAQSection: React.FC = () => {
       <div className="container mx-auto px-4">
         {/* Section Heading */}
         <h2 className="text-center text-3xl md:text-4xl font-bold mb-12">
-          Frequently Asked Questions
+        Deploy agents and agentic vaults
         </h2>
 
         {/* FAQ List */}

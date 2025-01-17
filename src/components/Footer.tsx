@@ -9,28 +9,11 @@ import { RiMediumFill } from "react-icons/ri";
 
 const Footer: React.FC = () => {
   return (
-    <footer className=" text-white pt-12 pb-4 border-t-[0.2px] border-[#c9c9c943] relative">
-      <img src="images/footright.png" alt="" className=" absolute top-0 right-0 h-[350px]"/>
+    <footer className=" text-white pt-12  border-t-[0.2px] border-[#c9c9c943] relative overflow-hidden">
+      <img src="images/footright.png" alt="" className=" absolute top-0 right-0 h-[170px]"/>
       <div className="container mx-auto px-4">
         {/* Top Section */}
-        <div className="flex flex-col lg:flex-row justify-between items-center mb-12">
-          <div>
-            <h2 className="text-2xl sm:text-4xl font-bold mb-4">
-              Be part of the next wave of Web3 innovation.
-            </h2>
-            <p className="text-2xl sm:text-4xl font-bold">
-              Stay connected and follow our journey:
-            </p>
-          </div>
-          <div className="mt-6 lg:mt-0">
-            <a
-              href="#"
-              className="bg-gradient-to-r from-purple-500 to-orange-400 text-white px-6 py-3 rounded-full shadow hover:opacity-90 transition duration-300"
-            >
-              JOIN US NOW
-            </a>
-          </div>
-        </div>
+      
 
         {/* Links Section */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
@@ -43,40 +26,10 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Column Links */}
-          <div>
-            <h3 className="font-bold mb-4">About</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">About Us</a></li>
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">Ecosystem</a></li>
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">Why Us?</a></li>
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">FAQs</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-bold mb-4">Ecosystem</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">AI Marketplace</a></li>
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">IAO Pad</a></li>
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">Agent Seedverse</a></li>
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">Developer SDK</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-bold mb-4">Resources</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">Whitepaper</a></li>
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">Pitch Deck</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-bold mb-4">Other Pages</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">Terms of Use</a></li>
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">Accessibility</a></li>
-              <li><a href="#" className="hover:text-gray-300 text-[#C9C9C9] text-sm font-eculid">Contact Us</a></li>
-            </ul>
-          </div>
+    
+ 
+   
+
         </div>
 
         {/* Bottom Section */}

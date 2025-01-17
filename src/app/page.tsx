@@ -4,6 +4,7 @@ import Aboutus from "@/components/HomeScreen/Aboutus";
 import Ecosystem from "@/components/HomeScreen/Ecosystem";
 import FAQSection from "@/components/HomeScreen/FAQSection";
 import Hero from "@/components/HomeScreen/Hero";
+import Sliderb from "@/components/HomeScreen/Sliderb";
 import WhySeedai from "@/components/HomeScreen/WhySeedai";
 import Navbar from "@/components/Navbar";
 
@@ -16,18 +17,22 @@ export default function Home() {
           <Navbar />
 
           <Hero />
+          <div className=" max-w-7xl mx-auto">
+          <Sliderb/>
+          </div>
+       
         </div>
-        <Aboutus />
+        {/* <Aboutus /> */}
         <div className="relative">
-          <img
+          {/* <img
             src="images/grid2.png"
             alt=""
             className="absolute top-0 left-0 w-full h-full object-cover"
-          />
+          /> */}
           <Ecosystem />
         </div>
 
-        <WhySeedai />
+      
         <FAQSection />
       </main>
       <Footer />
