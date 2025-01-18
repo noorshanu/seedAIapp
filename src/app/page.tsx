@@ -1,11 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import Footer from "@/components/Footer";
+import ComingSoonCards from "@/components/HomeScreen/ComingSoonCards";
 // import Aboutus from "@/components/HomeScreen/Aboutus";
 import Ecosystem from "@/components/HomeScreen/Ecosystem";
 import FAQSection from "@/components/HomeScreen/FAQSection";
 import Hero from "@/components/HomeScreen/Hero";
 import Sliderb from "@/components/HomeScreen/Sliderb";
-// import WhySeedai from "@/components/HomeScreen/WhySeedai";
+//                                                                                                                                                                                                                                                                                                                                                                                                                                           
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -33,7 +34,8 @@ export default function Home() {
         </div>
 
       
-        <FAQSection />
+        {/* <FAQSection /> */}
+        <ComingSoonCards/>
       </main>
       <Footer />
     </div>
