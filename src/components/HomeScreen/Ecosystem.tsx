@@ -3,7 +3,7 @@ import React from "react";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
-import { RiMediumFill } from "react-icons/ri";
+
 
 function Ecosystem() {
   return (

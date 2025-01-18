@@ -97,3 +97,31 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.swiper-container {
+  position: relative;
+  padding: 0 20px;  /* Reduced padding for mobile */
+}
+
+@media (min-width: 768px) {
+  .swiper-container {
+    padding: 0 40px;  /* More padding on larger screens */
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+}
+
+/* Hide navigation arrows on mobile */
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background: #000;
+}
