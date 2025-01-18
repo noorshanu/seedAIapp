@@ -47,13 +47,13 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 items-center">
-          <a href="/ecosystem" className="hover:text-gray-300 text-xl font-eculid uppercase ">
+          <a href="#" className="hover:text-gray-300 text-xl font-eculid uppercase ">
          Dashboard
           </a>
           <a href="/how-it-works" className="hover:text-gray-300 text-xl font-eculid uppercase">
           Goveernance 
           </a>
-          <a href="/community" className="hover:text-gray-300 text-xl font-eculid uppercase">
+          <a href="#" className="hover:text-gray-300 text-xl font-eculid uppercase">
         AI
           </a>
           <a href="#" className="hover:text-gray-300 text-xl font-eculid uppercase">
@@ -78,13 +78,13 @@ const Navbar: React.FC = () => {
             isMenuOpen ? 'flex' : 'hidden'
           } absolute top-[80px] left-0 right-0 flex-col bg-black bg-opacity-90 py-4 md:hidden z-50`}
         >
-          <a href="/ecosystem" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
+          <a href="#" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
             Dashboard
           </a>
-          <a href="/how-it-works" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
+          <a href="#" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
             Goveernance
           </a>
-          <a href="/community" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
+          <a href="#" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
             AI
           </a>
           <a href="#" className="hover:text-gray-300 text-xl font-eculid px-4 py-2">
