@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -31,7 +31,20 @@ function Hero() {
         </div>
 
         {/* CTA Button */}
-       
+        <div className=" grid sm:flex grid-cols-2 sm:flex-row justify-center gap-4 my-8 relative z-50">
+          <Link href="/" className="group font-eculid border headerm hover:bg-gray-800/80 text-white px-8 py-3 rounded-full text-lg transition-all duration-300 flex items-center gap-2 mx-auto">
+            AI LIBRARY
+          </Link>
+          <Link href="/" className="group font-bold font-eculid border bg-gray-800/60 hover:bg-gray-800/80 text-white px-8 py-3 rounded-full text-lg transition-all duration-300 flex items-center gap-2 mx-auto">
+       AGENTIC STAKING 
+          </Link>
+          <Link href="/" className="group font-eculid border bg-gray-800/60 hover:bg-gray-800/80 text-white px-8 py-3 rounded-full text-lg transition-all duration-300 flex items-center gap-2 mx-auto">
+            IOA LAUNCHPAD
+          </Link>
+          <button className="group font-eculid border bg-gray-800/60 hover:bg-gray-800/80 text-white px-8 py-3 rounded-full text-lg transition-all duration-300 flex items-center gap-2 mx-auto">
+            SEED VERSE
+          </button>
+        </div>
       </div>
     </div>
   );

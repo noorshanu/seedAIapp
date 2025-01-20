@@ -1,16 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-
+import Link from 'next/link';
 import Test from "@/components/Test";
 
 function Sliderb() {
   return (
    <>
 
-    <div className=" ">
-          <button className="group font-eculid border bg-gray-800/60 hover:bg-gray-800/80 text-white px-8 py-3 rounded-full text-lg transition-all duration-300 flex items-center gap-2 mx-auto">
-            EXPLORE MARKETPLACE
-          </button>
+    <div className="  ">
+
         </div>
 
         <h1 className="text-3xl sm:text-5xl font-bold text-white mt-10 text-center">
